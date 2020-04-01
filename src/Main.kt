@@ -8,12 +8,5 @@ fun main(){
         }
     }
     val deck = DeckOfCards(cards);
-    for(i in deck.cards){
-        println("Value ${i.value} and Suite: ${i.suit}")
-    }
     deck.shuffleCards()
-    println("Shuffeld")
-    for(i in deck.cards) {
-        println("Value ${i.value} and Suite: ${i.suit}")
-    }
 }
