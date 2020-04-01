@@ -13,4 +13,13 @@ data class DeckOfCards (val cards: ArrayList<Card>) {
             cards[random] = temp
         }
     }
+    fun numberOfPoints(): Int{
+        var points = 0;
+        for(i in cards){
+            if(i.value == 10 || i.value == 11){
+                points++;
+            }
+        }
+        return points;
+    }
 }
