@@ -1,3 +1,4 @@
+//This class will contain all the possible suits of the Cards
 enum class Suits {
     HEARTS, CLUBS, DIAMONDS, SPADES
 }
